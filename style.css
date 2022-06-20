@@ -1,0 +1,245 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://www.purdueglobal.edu/blog/it/rise-of-data-analyst.jpg");
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    
+}
+
+.container {
+    margin: 0 auto;
+
+}
+
+
+
+.logos {
+    margin: 2vh 2vw;
+    padding: 10vh 1vw;
+
+}
+
+.tablogo {
+    float: right;
+    width: 20vw;
+    height: 4vw;
+}
+
+.smartlogo {
+    float: left;
+    width: 20vw;
+    height: 8vw;
+}
+
+.head {
+    font-size: 5vw;
+    display: inline-block;
+}
+
+.sub-head {
+    font-size: 2vw;
+}
+
+.rgbtn {
+    background-color: #FF914D;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.5vw;
+    padding: 2vh 3vw;
+    margin: 10vh 0;
+}
+
+.rgbtn:hover {
+    background-color: #fc7420;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    background-color: rgb(245, 239, 239);
+}
+
+.circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #fc7420;
+    color: rgb(255, 255, 255);
+    padding: 2px 2px;
+    text-align: center;
+    float: right;
+    font-weight: bold;
+}
+
+ul {
+    text-align: left;
+}
+
+.tft-head {
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin: 1vh 0;
+}
+
+.video {
+    position: relative;
+    width: 50%;
+    height: 40vh;
+    overflow: hidden;
+    margin-top: 3%;
+    /* 4:3 Aspect Ratio */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.tft-sub {
+    font-size: 1.2vw;
+    width: 47vw;
+    text-align: justify;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    grid-template-rows: 1fr;
+}
+
+.zone {
+    text-align: center;
+    font-size: 10em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+hr {
+    background-color: #0F62FE;
+    height: 1px;
+    border-radius: 55px;
+    margin: 1vh 0;
+}
+
+.tc {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+.cd-head{
+    background-color: rgb(236, 236, 236);
+    
+}
+
+.participate {
+    background-color: black;
+    padding: 30px;
+    margin-left: -9.5vw;
+    margin-right: -9.5vw;
+    margin-top: 5%;
+}
+
+.numbers {
+    font-size: 35px;
+    font-weight: bold;
+    color: #0F62FE;
+
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+.card,
+.card-body {
+    background-color: white;
+}
+
+.zoom {
+    padding-top: 40px;
+    transition: transform .5s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.box{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+    border-radius: 21px;
+    border: none;
+    transition: all 0.3s linear;
+    margin: 2vw;
+    margin-top: 10vw;
+    padding: 1vw;
+    overflow: hidden;
+}
+
+.tabs{
+    display: flex;
+}
+
+.tabs_slidebar{
+    /* width: 125px; */
+    flex-shrink: 0;
+}
+
+.tabs_button{
+    display: block;
+    padding: 10px;
+    background: rgb(116, 116, 116);
+    border: none;
+    width: 16vw;
+    outline: none;
+    cursor: pointer;
+    margin: 1vw;
+    font-size: 1.2vw;
+}
+
+.tabs_button:active{
+    background: #ddd;
+}
+
+.tabs_button:not(:last-of-type){
+    border-bottom: 1px solid #ccc;
+}
+
+.tabs_button--active{
+    font-weight: bold;
+    background: rgb(20, 83, 218);
+}
+
+.tabs_content{
+    padding: 15px;
+    font-size: 1.5vw;
+    display: none;
+    overflow: hidden;
+}
+
+.tabs_content--active{
+    display: block;
+    margin-left: 10vw ;
+  
+}
+
+.tabs_content > :first-child{
+    margin-top: 0;
+}
+
+
