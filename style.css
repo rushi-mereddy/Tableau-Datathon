@@ -44,6 +44,7 @@ body {
     background-color: #FF914D;
     color: white;
     font-weight: bold;
+    width: auto;
     border-radius: 50px;
     border: none;
     font-size: 1.5vw;
@@ -87,6 +88,8 @@ ul {
     position: relative;
     width: 50%;
     height: 40vh;
+    min-width: 300px;
+    max-width: 50vw;
     overflow: hidden;
     margin-top: 3%;
     /* 4:3 Aspect Ratio */
