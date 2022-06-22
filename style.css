@@ -242,7 +242,7 @@ hr {
     outline: none;
     cursor: pointer;
     margin: 1vw;
-    font-size: 1.2vw;
+    font-size: 0.8rem;
 }
 
 .tabs_button:active{
@@ -307,6 +307,18 @@ hr {
 @media screen and (max-width: 720px){
     .banner{
         background-size: cover;
+    }
+
+    .tabs_button{
+        width: 30vw;
+
+    }
+    .heading1{
+        text-decoration: underline; 
+        text-underline-offset: 8px;
+    }
+    hr{
+        display: none;
     }
 }
 @media screen and (max-width: 600px){
