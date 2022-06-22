@@ -7,7 +7,8 @@ body {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://online.hbs.edu/Style%20Library/api/resize.aspx?imgpath=/online/PublishingImages/blog/posts/business-professional-examining-data-analytics.jpg&w=1200&h=630");
     background-repeat: no-repeat;
     background-size: 100vw 85vh;
-    margin: -18px;
+    margin: -15px;
+    
     
 }
 
@@ -19,8 +20,7 @@ body {
 
 
 .logos {
-    margin: 2vh 2vw;
-    padding: 10vh 1vw;
+    padding: 8vh 1vw;
 
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .head {
-    font-size: 5vw;
+    font-size: 4vw;
     display: inline-block;
     margin: 10vh;
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .po-card{
-    width: 102%;
+    height: 55vh;
 }
 
 .pd-card{
@@ -178,8 +178,6 @@ hr {
 .participate {
     background-color: black;
     padding: 30px;
-    margin-left: -9.5vw;
-    margin-right: -9.5vw;
     margin-top: 5%;
 }
 
@@ -278,13 +276,13 @@ hr {
 
 @media screen and (max-width: 500px){
     .banner{
-        background-size: cover;
+        background-size:cover;
     }
     .head{
-        font-size: 7vw;
-        margin-top: 2vw;
+        font-size: 6vw;
+        margin-top: 3vw;
         /* width: 80%; */
-        margin-left: 5vw;
+        margin-left: 1vw;
     }
 
     .pd-card{
@@ -314,7 +312,11 @@ hr {
     }
 
     .tabs_button{
-        width: 30vw;
+        width: 33vw;
+
+    }
+    .tabs_button--active{
+        width: 34vw;
 
     }
     .heading1{
