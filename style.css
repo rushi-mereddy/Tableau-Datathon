@@ -39,6 +39,7 @@ body {
 .head {
     font-size: 5vw;
     display: inline-block;
+    margin: 10vh;
 }
 
 .sub-head {
@@ -269,4 +270,22 @@ hr {
     margin-top: 0;
 }
 
+@media screen and (max-width: 500px){
+    .head{
+        font-size: 6vw;
+    }
 
+    .sub-head{
+        font-size: 3vw;
+    }
+
+    .tablogo{
+        width: 30vw;
+        height: 6vw;
+    }
+
+    .smartlogo{
+        width: 30vw;
+        height: 12vw;
+    }
+}
