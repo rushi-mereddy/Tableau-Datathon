@@ -6,8 +6,8 @@ body {
 .banner{
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://online.hbs.edu/Style%20Library/api/resize.aspx?imgpath=/online/PublishingImages/blog/posts/business-professional-examining-data-analytics.jpg&w=1200&h=630");
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    margin: -15px;
+    background-size: 100vw 85vh;
+    margin: -18px;
     
 }
 
@@ -55,7 +55,6 @@ body {
     border: none;
     /* font-size: 1.5vw; */
     padding: 2vh 3vw;
-    margin: 1.5vw 0;
 }
 
 .rgbtn:hover {
@@ -68,6 +67,13 @@ body {
     background-color: rgb(245, 239, 239);
 }
 
+.po-card{
+    width: 102%;
+}
+
+.pd-card{
+    width: 100%;
+}
 .circle {
     border-radius: 50%;
     width: 30px;
@@ -212,7 +218,7 @@ hr {
     border-radius: 21px;
     border: none;
     transition: all 0.3s linear;
-    margin: 2vw;
+    
     margin-top: 10vw;
     padding: 1vw;
     overflow: hidden;
@@ -271,8 +277,16 @@ hr {
 }
 
 @media screen and (max-width: 500px){
+    .banner{
+        background-size: cover;
+    }
     .head{
         font-size: 6vw;
+    }
+
+    .pd-card{
+        margin-left: -4vw;
+        width: 80vw;
     }
 
     .sub-head{
@@ -287,5 +301,16 @@ hr {
     .smartlogo{
         width: 30vw;
         height: 12vw;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .banner{
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 600px){
+    .tabs_button{
+        margin-bottom: 6vw;
     }
 }
