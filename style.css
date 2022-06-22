@@ -281,7 +281,10 @@ hr {
         background-size: cover;
     }
     .head{
-        font-size: 6vw;
+        font-size: 7vw;
+        margin-top: 2vw;
+        /* width: 80%; */
+        margin-left: 5vw;
     }
 
     .pd-card{
@@ -290,7 +293,8 @@ hr {
     }
 
     .sub-head{
-        font-size: 3vw;
+        font-size: 4vw;
+        width: 100%;
     }
 
     .tablogo{
